@@ -324,8 +324,6 @@ img{
   padding: 20px; 
    text-align: center;
 }
-
-
 a:link, a:visited {
   text-align: center;
   text-decoration: none;
@@ -429,6 +427,56 @@ display: flex;
 justify-content: center;
 }
 
+/*------------------------------------------------------styling tv series and dramas page-------------------------------------------*/
+
+.fant {
+	border-right: none;
+}
+.action {
+	border-right: none;
+}
+.horror {
+	border-right: none;
+}
+.img-text {
+  bottom: 16px;
+  left: 50%;
+  width: 192px;
+  font-variant-caps: all-petite-caps;
+}
+.img-cont {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.fant-title .text-block2{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    height: 50px;
+    border-radius: 0 0 15px 15px;
+}
+.action-title .text-block2{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    height: 50px;
+    border-radius: 0 0 15px 15px;
+}
+.horror-title .text-block2{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    height: 50px;
+    border-radius: 0 0 15px 15px;
+}
+.anime-title .text-block2{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    height: 50px;
+    border-radius: 0 0 15px 15px;
+}
 
 @media screen and (max-width: 600px)
 {
@@ -542,58 +590,7 @@ justify-content: center;
 	grid-gap: 10px;
 }
 
-.fant {
-	border-right: none;
-}
-.action {
-	border-right: none;
-}
-.horror {
-	border-right: none;
-}
-}
 
-.img-text {
-  bottom: 16px;
-  left: 50%;
-  width: 192px;
-  font-variant-caps: all-petite-caps;
-}
-
-.img-cont {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.fant-title .text-block2{
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
-  .action-title .text-block2{
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
-  .horror-title .text-block2{
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
-  .anime-title .text-block2{
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
 
 /*books*/
 .fanta-title{
