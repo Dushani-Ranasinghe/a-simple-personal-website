@@ -962,7 +962,7 @@ a:link, a:visited {
 	"contact-img contact-img"
 	"contact-desc contact-desc"
 	"social-media social-media";
-     justify-items:center;
+   justify-items:center;
 	grid-gap: 10px;
 
 	}
