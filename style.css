@@ -127,7 +127,7 @@ img{
 	padding: 50px 0 0 0;
 	background-position: center;
   background-repeat: no-repeat;
-	background-size: cover;
+  background-size: cover;
 }
 .myself-img{
 	grid-area: myself-img;
@@ -200,6 +200,161 @@ img{
   background-repeat: no-repeat;
 	background-size: cover;
 }
+.fanta-title{
+	background-image: url(https://images.unsplash.com/photo-1515356619894-b89131037e3d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FzdGxlc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+   padding: 50px 0 0 0;
+	 background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+}
+
+.rom-title{
+	background-image: url(https://images.unsplash.com/photo-1557830330-6aca2b7edd70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+     padding: 50px 0 0 0;
+	 background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+}
+
+.hor-title{
+	background-image: url(https://images.unsplash.com/photo-1509411273045-2920cee823be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvcnJvcnxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+     padding: 50px 0 0 0;
+	 background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+}
+
+.adven-title{
+	background-image: url(https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8YWR2ZW50dXJlfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+     padding: 50px 0 0 0;
+	 background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+}
+
+.fanta-title .text-block2{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    height: 50px;
+    border-radius: 0 0 15px 15px;
+  }
+  .rom-title .text-block2{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    height: 50px;
+    border-radius: 0 0 15px 15px;
+  }
+  .adven-title .text-block2{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    height: 50px;
+    border-radius: 0 0 15px 15px;
+  }
+  .hor-title .text-block2{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    height: 50px;
+    border-radius: 0 0 15px 15px;
+  }
+
+  @media screen and (max-width: 600px)
+  {
+    .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 100px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "welcome-img welcome-img"
+    "welcome welcome"
+    "about about"
+    "myself-img myself-img"
+    "myself myself"
+    "fam-img fam-img"
+    "fam fam"
+    "ed-img ed-img"
+    "ed ed"
+    "future-img future-img"
+    "future future";
+    grid-gap: 10px;
+  }
+  }
+  
+    @media screen and (max-width: 800px) {
+       
+       .active{
+           background-color:  #D4CAA3;
+       }
+      .topnav a:not(:first-child), .dropdown .dropbtn{
+        display: none;
+      }
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    }
+    
+    @media screen and (max-width: 800px) {
+      a {
+          flex: none;
+      }
+      .topnav{
+          width: 80%;
+      }
+      .topnav.responsive {
+      position: relative;
+      width: 100%;
+      display: initial;
+      }
+     .icon{
+         border: solid;
+     }
+      .topnav.responsive .icon {
+          float: right;
+          display: block;
+         position: absolute;
+        top: 0;
+        border-bottom: hidden;
+      }
+      .topnav.responsive a {   
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: #D4CAA3;
+        float: none;
+        display: block;
+        text-align: left;
+        border-bottom: solid;
+      }
+  
+      .topnav.responsive .dropdown .nav-link {float: none;}
+      .topnav.responsive {position: relative;}
+      .topnav.responsive .dropdown .dropbtn 
+      {
+        display: block;
+        width: 100%;
+        text-align: left;
+      }
+      .row{
+          flex-direction: column;
+      }
+    
+  
+  }
 
 /*---------------------------------------------------styling header--------------------------------------------------*/
 .header
@@ -219,7 +374,7 @@ img{
     
 }
 
-/*--------------------------------------------------------styling entertaiment page---------------------------------------------*/
+/*--------------------------------------------------------styling entertainment page---------------------------------------------*/
 .ent-grid{
 	display: grid;
 	padding: 40px;
@@ -330,6 +485,22 @@ a:link, a:visited {
   display: inline-block;
 }
 
+
+@media screen and (max-width: 600px)
+{
+	.ent-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+	"movie movie"
+	"drama drama"
+	"music music"
+	"books books";
+	grid-gap: 10px;
+}
+}
+
 /*------------------------------------------------------styling movie page-----------------------------------------------------*/
 
 .movie-grid{
@@ -427,7 +598,19 @@ display: flex;
 justify-content: center;
 }
 
-/*------------------------------------------------------styling tv series and dramas page-------------------------------------------*/
+@media screen and (max-width: 600px)
+{
+	.movie-grid{
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+	"fant fant fant fant"
+	"action action action action"
+	"horror horror horror horror"
+	"anime anime anime anime";
+	grid-gap: 10px;
+}
+
 
 .fant {
 	border-right: none;
@@ -438,53 +621,56 @@ justify-content: center;
 .horror {
 	border-right: none;
 }
+}
+
 .img-text {
   bottom: 16px;
   left: 50%;
   width: 192px;
   font-variant-caps: all-petite-caps;
 }
+
 .img-cont {
   position: relative;
   text-align: center;
   color: white;
 }
+
 .fant-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
     border-radius: 0 0 15px 15px;
-}
-.action-title .text-block2{
+  }
+  .action-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
     border-radius: 0 0 15px 15px;
-}
-.horror-title .text-block2{
+  }
+  .horror-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
     border-radius: 0 0 15px 15px;
-}
-.anime-title .text-block2{
+  }
+  .anime-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
     border-radius: 0 0 15px 15px;
-}
+  }
 
-/*----------------------------------------------------styling book page ------------------------------------------------------- */
-
+/*------------------------------------------------------styling book page-------------------------------------------*/
 .fanta-title{
 	background-image: url(https://images.unsplash.com/photo-1515356619894-b89131037e3d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FzdGxlc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-  padding: 50px 0 0 0;
-	background-position: center;
-  background-repeat: no-repeat;
+   padding: 50px 0 0 0;
+	 background-position: center;
+    background-repeat: no-repeat;
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
@@ -493,9 +679,9 @@ justify-content: center;
 
 .rom-title{
 	background-image: url(https://images.unsplash.com/photo-1557830330-6aca2b7edd70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
-  padding: 50px 0 0 0;
-	background-position: center;
-  background-repeat: no-repeat;
+     padding: 50px 0 0 0;
+	 background-position: center;
+    background-repeat: no-repeat;
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
@@ -504,9 +690,9 @@ justify-content: center;
 
 .hor-title{
 	background-image: url(https://images.unsplash.com/photo-1509411273045-2920cee823be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvcnJvcnxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-  padding: 50px 0 0 0;
-	background-position: center;
-  background-repeat: no-repeat;
+     padding: 50px 0 0 0;
+	 background-position: center;
+    background-repeat: no-repeat;
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
@@ -515,9 +701,9 @@ justify-content: center;
 
 .adven-title{
 	background-image: url(https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8YWR2ZW50dXJlfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-  padding: 50px 0 0 0;
-	background-position: center;
-  background-repeat: no-repeat;
+     padding: 50px 0 0 0;
+	 background-position: center;
+    background-repeat: no-repeat;
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
@@ -553,124 +739,7 @@ justify-content: center;
     border-radius: 0 0 15px 15px;
   }
 
-@media screen and (max-width: 600px)
-{
-	.grid{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 100px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-template-areas: 
-	"welcome-img welcome-img"
-	"welcome welcome"
-	"about about"
-	"myself-img myself-img"
-	"myself myself"
-	"fam-img fam-img"
-	"fam fam"
-	"ed-img ed-img"
-	"ed ed"
-	"future-img future-img"
-	"future future";
-	grid-gap: 10px;
-}
-}
-  @media screen and (max-width: 800px) {
-     
-     .active{
-         background-color:  #D4CAA3;
-     }
-    .topnav a:not(:first-child), .dropdown .dropbtn{
-      display: none;
-    }
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
-  @media screen and (max-width: 800px) {
-    a {
-        flex: none;
-    }
-    .topnav{
-        width: 80%;
-    }
-    .topnav.responsive {
-    position: relative;
-    width: 100%;
-    display: initial;
-    }
-   .icon{
-       border: solid;
-   }
-    .topnav.responsive .icon {
-        float: right;
-        display: block;
-       position: absolute;
-      top: 0;
-      border-bottom: hidden;
-    }
-    .topnav.responsive a {   
-        left: 50%;
-        transform: translateX(-50%);
-        background-color: #D4CAA3;
-      float: none;
-      display: block;
-      text-align: left;
-      border-bottom: solid;
-    }
-
-    .topnav.responsive .dropdown .nav-link {float: none;}
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .dropdown .dropbtn 
-    {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-    .row{
-        flex-direction: column;
-    }
-  
-
-}
-
-
-
-@media screen and (max-width: 600px)
-{
-	.ent-grid{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
-	grid-template-areas: 
-	"movie movie"
-	"drama drama"
-	"music music"
-	"books books";
-	grid-gap: 10px;
-}
-}
-
-@media screen and (max-width: 600px)
-{
-	.movie-grid{
-	display: grid;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
-	grid-template-areas: 
-	"fant fant fant fant"
-	"action action action action"
-	"horror horror horror horror"
-	"anime anime anime anime";
-	grid-gap: 10px;
-}
-
-
-
-
-
-
-  /*Drama*/
+  /* -------------------------------------------------styling Drama page---------------------------------*/
   .fantas-title{
 	background-image: url(https://i.pinimg.com/originals/2b/e9/08/2be908eca72c1ea42f68c30feb0fd64f.jpg);
    padding: 50px 0 0 0;
@@ -744,7 +813,7 @@ justify-content: center;
     border-radius: 0 0 15px 15px;
   }
 
-  /* music*/
+  /* ------------------------------------------------ styling music page---------------------------------------------------------*/
 
 .eng-title{
 	background-image: url(https://media.istockphoto.com/photos/young-woman-in-eighteenth-century-image-posing-at-vintage-exterior-picture-id600064658?k=6&m=600064658&s=612x612&w=0&h=FJ4cYQM9AnvEusOeKFhPXNZS4zQ5ZcVyBju37zqNmeE=);
@@ -796,9 +865,6 @@ justify-content: center;
 
 }
 
-
-
-
 .eng-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
@@ -828,11 +894,6 @@ justify-content: center;
     border-radius: 0 0 15px 15px;
   }
 
-
-
-
-
-
  .btn {
   position: absolute;
   top: 50%;
@@ -854,7 +915,7 @@ justify-content: center;
   background-color: #a19a7c;
 }
 
-/*Contact*/
+/*---------------------------------------------------------styling Contact page --------------------------------------------------------------*/
 
 .contact-grid{
 	display: grid;
