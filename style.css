@@ -478,6 +478,81 @@ justify-content: center;
     border-radius: 0 0 15px 15px;
 }
 
+/*----------------------------------------------------styling book page ------------------------------------------------------- */
+
+.fanta-title{
+	background-image: url(https://images.unsplash.com/photo-1515356619894-b89131037e3d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FzdGxlc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+}
+
+.rom-title{
+	background-image: url(https://images.unsplash.com/photo-1557830330-6aca2b7edd70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+}
+
+.hor-title{
+	background-image: url(https://images.unsplash.com/photo-1509411273045-2920cee823be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvcnJvcnxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+}
+
+.adven-title{
+	background-image: url(https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8YWR2ZW50dXJlfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+}
+
+.fanta-title .text-block2{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    height: 50px;
+    border-radius: 0 0 15px 15px;
+  }
+  .rom-title .text-block2{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    height: 50px;
+    border-radius: 0 0 15px 15px;
+  }
+  .adven-title .text-block2{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    height: 50px;
+    border-radius: 0 0 15px 15px;
+  }
+  .hor-title .text-block2{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    height: 50px;
+    border-radius: 0 0 15px 15px;
+  }
+
 @media screen and (max-width: 600px)
 {
 	.grid{
@@ -592,79 +667,8 @@ justify-content: center;
 
 
 
-/*books*/
-.fanta-title{
-	background-image: url(https://images.unsplash.com/photo-1515356619894-b89131037e3d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FzdGxlc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-   padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
-	background-size: cover;
-	height: 100px;
-	margin-bottom: 15px;
-	border-radius: 15px;
-}
 
-.rom-title{
-	background-image: url(https://images.unsplash.com/photo-1557830330-6aca2b7edd70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
-     padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
-	background-size: cover;
-	height: 100px;
-	margin-bottom: 15px;
-	border-radius: 15px;
-}
 
-.hor-title{
-	background-image: url(https://images.unsplash.com/photo-1509411273045-2920cee823be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvcnJvcnxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-     padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
-	background-size: cover;
-	height: 100px;
-	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
-.adven-title{
-	background-image: url(https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8YWR2ZW50dXJlfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-     padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
-	background-size: cover;
-	height: 100px;
-	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
-.fanta-title .text-block2{
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
-  .rom-title .text-block2{
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
-  .adven-title .text-block2{
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
-  .hor-title .text-block2{
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
 
   /*Drama*/
   .fantas-title{
