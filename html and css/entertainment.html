@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ENTERTAINING</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+           <img class="logo" src="../images/logo.png">
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="nav-link">HOME</a>
+            <a href="index.html#about-title" class="nav-link" >ABOUT</a>
+            <a href="#"   class="active"  >ENTERTAINING</a>
+            <a href="contact.html" class="nav-link" >CONTACT</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+    
+       </header>
+       <main>
+           <section class="ent-conent" style="padding-top: 30px;">
+            <div class="ent-grid">
+                <div class="movie">
+                    <div class="text-block">
+                        <a class="movie-link" href="movie.html"><h1><span>MOVIES</span></h1></a>
+                    </div>
+                </div>
+                <div class="drama">
+                        <div class="text-block">
+                        <a class="drama-link" href="drama.html"><h1><span>DRAMAS & SERIES</span></h1></a>
+                    </div>
+                </div>
+                <div class="music">
+                        <div class="text-block">
+                        <a class="music-link" href="music.html"><h1><span>MUSIC</span></h1></a>
+                    </div>
+                </div>
+                <div class="books">
+                        <div class="text-block">
+                        <a class="books-link" href="book.html"><h1><span>BOOKS</span></h1></a>
+                    </div>
+                </div>
+
+            </div>
+           </section>
+       </main>
+       <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
