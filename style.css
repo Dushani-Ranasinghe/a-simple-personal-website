@@ -3,7 +3,7 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
-
+/*styling logo*/
 .logo .logo-container{
 
     max-height: auto;
@@ -18,6 +18,7 @@ img{
     transform: translateX(-50%);
 }
 
+/*styling navigation bar*/
 .topnav {
     overflow: hidden;
     width: 50%;
@@ -56,7 +57,6 @@ img{
     overflow: hidden;
   }
   
-  
   .topnav a:hover, .dropdown:hover .dropbtn {
     color: #857f65;
   }
@@ -70,7 +70,7 @@ img{
     display: block;
   }
   
-  
+  /*styling home page*/
 
 .grid{
 	display: grid;
@@ -86,30 +86,28 @@ img{
 	"future-img future";
 	grid-row-gap: 10px;
 }
-
+/*styling welcome section*/
 .welcome{
 	grid-area: welcome;
     background-color: #D4CAA3;
     opacity: 0.7;
     height: 300px;
-	padding: 50px 0 0 0;
+	 padding: 50px 0 0 0;
 	 background-position: center;
     background-repeat: no-repeat;
 	background-size: cover;
-
 }
 .welcome-img {
 	grid-area: welcome-img;
 	background-image: url(https://media.istockphoto.com/photos/tropical-leaf-background-picture-id1147081863?k=6&m=1147081863&s=612x612&w=0&h=JQevcRIFT_M7G7_VrBkaSmkv-2WlqemBqZoCdMR5m-s=);
 	height: 300px;
 	padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
 }
-
-
+/*styling about section*/
 .about{
 	grid-area: about;
 	text-align: center;
@@ -123,12 +121,12 @@ img{
 
 .myself{
 	grid-area: myself;
-    background-color: #D4CAA3;
-    opacity: 0.7;
-    height: 300px;
+  background-color: #D4CAA3;
+  opacity: 0.7;
+  height: 300px;
 	padding: 50px 0 0 0;
-	 background-position: center;
-   background-repeat: no-repeat;
+	background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
 }
 .myself-img{
@@ -136,17 +134,17 @@ img{
 	background-image: url(https://i.pinimg.com/564x/8c/d4/7f/8cd47f25bb5aaf04c75e492abbadc09d.jpg);
 	height: 300px;
 	padding: 50px 0 0 0;
-	 background-position: center;
-   background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
     
 }
 .fam{
 	grid-area: fam;
-    background-color: #D4CAA3;
-    opacity: 0.7;
-    height: 300px;
+  background-color: #D4CAA3;
+  opacity: 0.7;
+  height: 300px;
 	padding: 50px 0 0 0;
 	 background-position: center;
    background-repeat: no-repeat;
@@ -154,19 +152,19 @@ img{
 }
 .fam-img{
 	grid-area: fam-img;
-	background-image: url(https://media.istockphoto.com/photos/lake-house-picture-id639451404?k=6&m=639451404&s=612x612&w=0&h=qZYZv8IiPay_loah6OpAaPBom02eoXCQvwpFniibGLQ=);
-    height: 300px;
+	background-image: url(https://amykranecolor.com/wp-content/uploads/2020/01/Screen-Shot-2020-01-14-at-10.44.53-AM.png);
+  height: 300px;
 	padding: 50px 0 0 0;
-	 background-position: center;
-   background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
 }
 .ed{
 	grid-area: ed;
-    background-color: #D4CAA3;
-    opacity: 0.7;
-    height: 300px;
+  background-color: #D4CAA3;
+  opacity: 0.7;
+  height: 300px;
 	padding: 50px 0 0 0;
 	 background-position: center;
    background-repeat: no-repeat;
@@ -177,17 +175,17 @@ img{
 	background-image: url(https://images.unsplash.com/photo-1555041469-6b20cde3fced?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDV8fGdyZWVuJTIwc3R1ZHl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
 	height: 300px;
 	padding: 50px 0 0 0;
-	 background-position: center;
-   background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
    
 }
 .future{
 	grid-area: future;
-    background-color: #D4CAA3;
-    opacity: 0.7;
-    height: 300px;
+  background-color: #D4CAA3;
+  opacity: 0.7;
+  height: 300px;
 	padding: 50px 0 0 0;
 	 background-position: center;
    background-repeat: no-repeat;
@@ -196,13 +194,30 @@ img{
 .future-img{
 	grid-area: future-img;
 	background-image: url(https://i.pinimg.com/564x/4d/9d/7a/4d9d7a70f3b66eec3a19b3903ab9ac1c.jpg);
-    height: 300px;
+  height: 300px;
 	padding: 50px 0 0 0;
-	 background-position: center;
-   background-repeat: no-repeat;
+	background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
 }
 
+/*styling header*/
+.header
+{
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+    height: auto;
+}
+/*styling main */
+.main{
+    padding: 10px;
+    margin: 60px;
+    flex: 1 100%;
+    border-radius: 10px;
+    
+}
 
 
 @media screen and (max-width: 600px)
@@ -287,22 +302,6 @@ img{
 
 }
 
-.header
-{
-    padding: 10px;
-    margin: 10px;
-    flex: 1 100%;
-    border-radius: 10px;
-    height: auto;
-}
-
-.main{
-    padding: 10px;
-    margin: 60px;
-    flex: 1 100%;
-    border-radius: 10px;
-    
-}
 
 .ent-grid{
 	display: grid;
