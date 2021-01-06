@@ -294,8 +294,10 @@ img{
     grid-gap: 10px;
   }
   }
+
+  /* mobile responsive navigation bar*/
   
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 600px) {
        
        .active{
            background-color:  #D4CAA3;
@@ -309,7 +311,7 @@ img{
       }
     }
     
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 600px) {
       a {
           flex: none;
       }
@@ -355,7 +357,91 @@ img{
     
   
   }
+ 
 
+  @media screen and (max-width: 360px)
+  {
+    .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 100px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "welcome-img welcome-img"
+    "welcome welcome"
+    "about about"
+    "myself-img myself-img"
+    "myself myself"
+    "fam-img fam-img"
+    "fam fam"
+    "ed-img ed-img"
+    "ed ed"
+    "future-img future-img"
+    "future future";
+    grid-gap: 10px;
+  }
+  }
+  
+    @media screen and (max-width: 360px) {
+       
+       .active{
+           background-color:  #D4CAA3;
+       }
+      .topnav a:not(:first-child), .dropdown .dropbtn{
+        display: none;
+      }
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    }
+    
+    @media screen and (max-width: 360px) {
+      a {
+          flex: none;
+      }
+      .topnav{
+          width: 80%;
+      }
+      .topnav.responsive {
+      position: relative;
+      width: 100%;
+      display: initial;
+      }
+     .icon{
+         border: solid;
+     }
+      .topnav.responsive .icon {
+          float: right;
+          display: block;
+         position: absolute;
+        top: 0;
+        border-bottom: hidden;
+      }
+      .topnav.responsive a {   
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: #D4CAA3;
+        float: none;
+        display: block;
+        text-align: left;
+        border-bottom: solid;
+      }
+  
+      .topnav.responsive .dropdown .nav-link {float: none;}
+      .topnav.responsive {position: relative;}
+      .topnav.responsive .dropdown .dropbtn 
+      {
+        display: block;
+        width: 100%;
+        text-align: left;
+      }
+      .row{
+          flex-direction: column;
+      }
+    
+  
+  }
+ 
 /*---------------------------------------------------styling header--------------------------------------------------*/
 .header
 {
