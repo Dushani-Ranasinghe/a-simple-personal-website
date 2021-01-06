@@ -330,7 +330,117 @@ img{
         display: block;
       }
     }
+    @media screen and (max-width: 1020px)
+    {
+      .grid{
+      display: grid;
+      grid-template-columns: 300px;
+      grid-template-rows: 250px 1fr 100px 250px 1fr 250px 1fr 250px 1fr 288px 1fr;
+      grid-template-areas: 
+      "welcome-img welcome-img"
+      "welcome welcome"
+      "about about"
+      "myself-img myself-img"
+      "myself myself"
+      "fam-img fam-img"
+      "fam fam"
+      "ed-img ed-img"
+      "ed ed"
+      "future-img future-img"
+      "future future";
+      grid-gap: 10px;
+    }
+    }
+    @media screen and (max-width: 1020px){
+      .welcome{
+        max-height: max-content;
+      }
+      .myself{
+        height: max-content;
+      }
+      .fam{
+        max-height: max-content;
+      }
+      .ed{
+        max-height: max-content;
+      }
+      .future{
+        max-height: max-content;
+      }
+     
+    }
+    @media screen and (max-width: 360px)
+    {
+      .grid{
+      display: grid;
+      grid-template-columns: 300px;
+      grid-template-rows: 250px 1fr 100px 250px 1fr 250px 1fr 250px 1fr 288px 1fr;
+      grid-template-areas: 
+      "welcome-img welcome-img"
+      "welcome welcome"
+      "about about"
+      "myself-img myself-img"
+      "myself myself"
+      "fam-img fam-img"
+      "fam fam"
+      "ed-img ed-img"
+      "ed ed"
+      "future-img future-img"
+      "future future";
+      grid-gap: 10px;
+    }
+    }
+    @media screen and (max-width: 360px){
+      .welcome{
+        max-height: max-content;
+      }
+      .myself{
+        height: max-content;
+      }
+      .fam{
+        max-height: max-content;
+      }
+      .ed{
+        max-height: max-content;
+      }
+      .future{
+        max-height: max-content;
+      }
+     
+    }
+  
+    /* mobile responsive navigation bar*/
     
+      @media screen and (max-width: 600px) {
+         
+         .active{
+             background-color:  #D4CAA3;
+         }
+        .topnav a:not(:first-child), .dropdown .dropbtn{
+          display: none;
+        }
+        .topnav a.icon {
+          float: right;
+          display: block;
+        }
+      }
+      
+    /* mobile responsive navigation bar*/
+    
+      @media screen and (max-width: 600px) {
+         
+         .active{
+             background-color:  #D4CAA3;
+         }
+        .topnav a:not(:first-child), .dropdown .dropbtn{
+          display: none;
+        }
+        .topnav a.icon {
+          float: right;
+          display: block;
+        }
+      }
+      
     @media screen and (max-width: 600px) {
       a {
           flex: none;
