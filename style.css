@@ -3,21 +3,16 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
-/*-------------------------------------styling logo-------------------------------------------*/
+/*------------------------------------styling logo-------------------------------------------*/
 .logo .logo-container{
-
     max-height: auto;
-    max-width: 100%;
-    
-}
+    max-width: 100%;    }
 img{
     width: 340px;
     height: auto;
     position: relative;
     left: 50%;
-    transform: translateX(-50%);
-}
-
+    transform: translateX(-50%); }
 /*---------------------------------------------styling navigation bar---------------------------------------*/
 .topnav {
     overflow: hidden;
@@ -27,9 +22,7 @@ img{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #D4CAA3;
-  }
-  
+    background-color: #D4CAA3; }
   .topnav a {
     float: left;
     display: block;
@@ -37,41 +30,25 @@ img{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-  }
-  
+    font-size: 17px; }
   .active {
     background-color:  #a19a7c;
-    color: white;
-  }
-  
+    color: white;  }
   a{
-      flex: 1;
-  }
+      flex: 1; }
   .topnav .icon {
-    display: none;
-  }
-  
+    display: none;  }
   .dropdown {
     float: left;
-    overflow: hidden;
-  }
-  
+    overflow: hidden; }
   .topnav a:hover, .dropdown:hover .dropbtn {
-    color: #857f65;
-  }
-  
+    color: #857f65; }
   a:hover {
     background-color: #a19a7c;
-    color: black;
-  }
-  
+    color: black; }
   .dropdown:hover {
-    display: block;
-  }
-  
+    display: block; }
   /*--------------------------------------------------styling home page-----------------------------------------*/
-
 .grid{
 	display: grid;
 	padding: 40px;
@@ -84,8 +61,7 @@ img{
 	"fam-img fam"
 	"ed ed-img"
 	"future-img future";
-	grid-row-gap: 10px;
-}
+	grid-row-gap: 10px; }
 /*----------------------------------------------------styling welcome section------------------------------------------*/
 .welcome{
 	grid-area: welcome;
@@ -95,8 +71,7 @@ img{
 	 padding: 50px 0 0 0;
 	 background-position: center;
     background-repeat: no-repeat;
-	background-size: cover;
-}
+	background-size: cover; }
 .welcome-img {
 	grid-area: welcome-img;
 	background-image: url(https://media.istockphoto.com/photos/tropical-leaf-background-picture-id1147081863?k=6&m=1147081863&s=612x612&w=0&h=JQevcRIFT_M7G7_VrBkaSmkv-2WlqemBqZoCdMR5m-s=);
@@ -105,22 +80,17 @@ img{
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.9;
-}
+  opacity: 0.9; }
 /*----------------------------------------------------------styling about section-----------------------------------------------*/
 .about{
 	grid-area: about;
   height: 150px;
-  text-align: left;
-
-}
+  text-align: left; }
 .about span{
 	color: #b3aa89;
 	font-weight: 700;
 	font-size: 1.5em;
-  height: 100px;
-}
-
+  height: 100px; }
 .myself{
 	grid-area: myself;
   background-color: #D4CAA3;
@@ -129,8 +99,7 @@ img{
 	padding: 50px 0 0 0;
 	background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-}
+  background-size: cover; }
 .myself-img{
 	grid-area: myself-img;
 	background-image: url(https://i.pinimg.com/564x/8c/d4/7f/8cd47f25bb5aaf04c75e492abbadc09d.jpg);
@@ -139,9 +108,7 @@ img{
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.9;
-    
-}
+  opacity: 0.9;     }
 .fam{
 	grid-area: fam;
   background-color: #D4CAA3;
@@ -150,8 +117,7 @@ img{
 	padding: 50px 0 0 0;
 	 background-position: center;
    background-repeat: no-repeat;
-	background-size: cover;
-}
+	background-size: cover; }
 .fam-img{
 	grid-area: fam-img;
 	background-image: url(https://amykranecolor.com/wp-content/uploads/2020/01/Screen-Shot-2020-01-14-at-10.44.53-AM.png);
@@ -160,8 +126,7 @@ img{
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.9;
-}
+  opacity: 0.9; }
 .ed{
 	grid-area: ed;
   background-color: #D4CAA3;
@@ -170,8 +135,7 @@ img{
 	padding: 50px 0 0 0;
 	 background-position: center;
    background-repeat: no-repeat;
-	background-size: cover;
-}
+	background-size: cover; }
 .ed-img{
 	grid-area: ed-img;
 	background-image: url(https://images.unsplash.com/photo-1555041469-6b20cde3fced?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDV8fGdyZWVuJTIwc3R1ZHl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
@@ -180,9 +144,7 @@ img{
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.9;
-   
-}
+  opacity: 0.9;   }
 .future{
 	grid-area: future;
   background-color: #D4CAA3;
@@ -191,8 +153,7 @@ img{
 	padding: 50px 0 0 0;
 	 background-position: center;
    background-repeat: no-repeat;
-	background-size: cover;
-}
+	background-size: cover; }
 .future-img{
 	grid-area: future-img;
 	background-image: url(https://i.pinimg.com/564x/4d/9d/7a/4d9d7a70f3b66eec3a19b3903ab9ac1c.jpg);
@@ -200,8 +161,7 @@ img{
 	padding: 50px 0 0 0;
 	background-position: center;
   background-repeat: no-repeat;
-	background-size: cover;
-}
+	background-size: cover; }
 .fanta-title{
 	background-image: url(https://images.unsplash.com/photo-1515356619894-b89131037e3d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FzdGxlc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
    padding: 50px 0 0 0;
@@ -210,9 +170,7 @@ img{
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
+	border-radius: 15px; }
 .rom-title{
 	background-image: url(https://images.unsplash.com/photo-1557830330-6aca2b7edd70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
      padding: 50px 0 0 0;
@@ -221,9 +179,7 @@ img{
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
+	border-radius: 15px; }
 .hor-title{
 	background-image: url(https://images.unsplash.com/photo-1509411273045-2920cee823be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvcnJvcnxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
      padding: 50px 0 0 0;
@@ -232,9 +188,7 @@ img{
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
+	border-radius: 15px; }
 .adven-title{
 	background-image: url(https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8YWR2ZW50dXJlfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
      padding: 50px 0 0 0;
@@ -243,41 +197,34 @@ img{
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
+	border-radius: 15px; }
 .fanta-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
+    border-radius: 0 0 15px 15px; }
   .rom-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
+    border-radius: 0 0 15px 15px; }
   .adven-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
+    border-radius: 0 0 15px 15px; }
   .hor-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
-
+    border-radius: 0 0 15px 15px; }
+    /*-------------------------------------------------------- responsive for 600px --------------------------------------*/
   @media screen and (max-width: 600px)
-  {
-    .grid{
+  { .grid{
     display: grid;
     grid-template-columns: 300px;
     grid-template-rows: 250px 1fr 100px 250px 1fr 250px 1fr 250px 1fr 288px 1fr;
@@ -293,46 +240,31 @@ img{
     "ed ed"
     "future-img future-img"
     "future future";
-    grid-gap: 10px;
+    grid-gap: 10px;  }
   }
-  }
-  @media screen and (max-width: 600px){
-    .welcome{
-      max-height: max-content;
-    }
+  @media screen and (max-width: 600px)
+  { .welcome{
+      max-height: max-content;}
     .myself{
-      height: max-content;
-    }
+      height: max-content;}
     .fam{
-      max-height: max-content;
-    }
+      max-height: max-content;}
     .ed{
-      max-height: max-content;
-    }
+      max-height: max-content;}
     .future{
-      max-height: max-content;
-    }
-   
+      max-height: max-content;} 
   }
-
-  /* mobile responsive navigation bar*/
-  
-    @media screen and (max-width: 600px) {
-       
-       .active{
-           background-color:  #D4CAA3;
-       }
+    @media screen and (max-width: 600px)
+    {.active{
+           background-color:  #D4CAA3;}
       .topnav a:not(:first-child), .dropdown .dropbtn{
-        display: none;
-      }
+        display: none; }
       .topnav a.icon {
         float: right;
-        display: block;
-      }
+        display: block;}
     }
     @media screen and (max-width: 1020px)
-    {
-      .grid{
+    {.grid{
       display: grid;
       grid-template-columns: 300px;
       grid-template-rows: 250px 1fr 100px 250px 1fr 250px 1fr 250px 1fr 288px 1fr;
@@ -348,121 +280,90 @@ img{
       "ed ed"
       "future-img future-img"
       "future future";
-      grid-gap: 10px;
+      grid-gap: 10px; }
     }
-    }
-    @media screen and (max-width: 1020px){
-      .welcome{
-        max-height: max-content;
-      }
+      /*--------------------------------------------------------  responsive for 1020px--------------------------------------*/
+    @media screen and (max-width: 1020px)
+    {.welcome{
+        max-height: max-content; }
       .myself{
-        height: max-content;
-      }
+        height: max-content;      }
       .fam{
-        max-height: max-content;
-      }
+        max-height: max-content; }
       .ed{
-        max-height: max-content;
-      }
+        max-height: max-content; }
       .future{
-        max-height: max-content;
-      }
-     
+        max-height: max-content; } 
+    }
+    /*--------------------------------------------------------  responsive for 360px--------------------------------------*/
+    @media screen and (max-width: 360px)
+    { .grid{
+      display: grid;
+      grid-template-columns: 300px;
+      grid-template-rows: 250px 1fr 100px 250px 1fr 250px 1fr 250px 1fr 288px 1fr;
+      grid-template-areas: 
+      "welcome-img welcome-img"
+      "welcome welcome"
+      "about about"
+      "myself-img myself-img"
+      "myself myself"
+      "fam-img fam-img"
+      "fam fam"
+      "ed-img ed-img"
+      "ed ed"
+      "future-img future-img"
+      "future future";
+      grid-gap: 10px;}
     }
     @media screen and (max-width: 360px)
-    {
-      .grid{
-      display: grid;
-      grid-template-columns: 300px;
-      grid-template-rows: 250px 1fr 100px 250px 1fr 250px 1fr 250px 1fr 288px 1fr;
-      grid-template-areas: 
-      "welcome-img welcome-img"
-      "welcome welcome"
-      "about about"
-      "myself-img myself-img"
-      "myself myself"
-      "fam-img fam-img"
-      "fam fam"
-      "ed-img ed-img"
-      "ed ed"
-      "future-img future-img"
-      "future future";
-      grid-gap: 10px;
-    }
-    }
-    @media screen and (max-width: 360px){
-      .welcome{
-        max-height: max-content;
-      }
+    {.welcome{
+        max-height: max-content;}
       .myself{
-        height: max-content;
-      }
+        height: max-content;     }
       .fam{
-        max-height: max-content;
-      }
+        max-height: max-content;      }
       .ed{
-        max-height: max-content;
-      }
+        max-height: max-content;      }
       .future{
-        max-height: max-content;
-      }
-     
+        max-height: max-content;    } 
     }
-  
-    /* mobile responsive navigation bar*/
-    
-      @media screen and (max-width: 600px) {
-         
-         .active{
-             background-color:  #D4CAA3;
-         }
+  /*--------------------------------------------------------  responsive for 600px--------------------------------------*/ 
+      @media screen and (max-width: 600px) 
+      {.active{
+             background-color:  #D4CAA3; }
         .topnav a:not(:first-child), .dropdown .dropbtn{
-          display: none;
-        }
+          display: none;}
         .topnav a.icon {
           float: right;
-          display: block;
-        }
+          display: block;}
       }
-      
-    /* mobile responsive navigation bar*/
-    
-      @media screen and (max-width: 600px) {
-         
-         .active{
-             background-color:  #D4CAA3;
-         }
+      @media screen and (max-width: 600px) 
+      {.active{
+             background-color:  #D4CAA3;}
         .topnav a:not(:first-child), .dropdown .dropbtn{
-          display: none;
-        }
+          display: none;}
         .topnav a.icon {
           float: right;
-          display: block;
-        }
-      }
-      
-    @media screen and (max-width: 600px) {
-      a {
-          flex: none;
-      }
+          display: block;}
+      } 
+    @media screen and (max-width: 600px) 
+    {  a {
+          flex: none;}
       .topnav{
           width: 80%;
-      }
+        position: none;}
       .topnav.responsive {
       position: relative;
       width: 100%;
-      display: initial;
-      }
+      display: initial; }
      .icon{
-         border: solid;
-     }
+         border: solid; }
       .topnav.responsive .icon {
           float: right;
           display: block;
          position: absolute;
         top: 0;
-        border-bottom: hidden;
-      }
+        border-bottom: hidden; }
       .topnav.responsive a {   
           left: 50%;
           transform: translateX(-50%);
@@ -470,60 +371,43 @@ img{
         float: none;
         display: block;
         text-align: left;
-        border-bottom: solid;
-      }
-  
+        border-bottom: solid;}
       .topnav.responsive .dropdown .nav-link {float: none;}
       .topnav.responsive {position: relative;}
-      .topnav.responsive .dropdown .dropbtn 
-      {
+      .topnav.responsive .dropdown .dropbtn {
         display: block;
         width: 100%;
-        text-align: left;
-      }
+        text-align: left;}
       .row{
-          flex-direction: column;
-      }
-    
-  
+          flex-direction: column;}
   }
-
-  @media screen and (max-width: 1020px) {
-       
-    .active{
-        background-color:  #D4CAA3;
-    }
+/*--------------------------------------------------------  responsive for 1020px--------------------------------------*/
+  @media screen and (max-width: 1020px) 
+  { .active{
+        background-color:  #D4CAA3;}
    .topnav a:not(:first-child), .dropdown .dropbtn{
-     display: none;
-   }
+     display: none;}
    .topnav a.icon {
      float: right;
-     display: block;
-   }
+     display: block;}
  }
- 
- @media screen and (max-width: 1020px) {
-   a {
-       flex: none;
-   }
+ @media screen and (max-width: 1020px)
+  {  a {
+       flex: none;}
    .topnav{
-       width: 80%;
-   }
+       width: 80%;}
    .topnav.responsive {
    position: relative;
    width: 100%;
-   display: initial;
-   }
+   display: initial; }
   .icon{
-      border: solid;
-  }
+      border: solid; }
    .topnav.responsive .icon {
        float: right;
        display: block;
       position: absolute;
      top: 0;
-     border-bottom: hidden;
-   }
+     border-bottom: hidden;}
    .topnav.responsive a {   
        left: 50%;
        transform: translateX(-50%);
@@ -531,60 +415,42 @@ img{
      float: none;
      display: block;
      text-align: left;
-     border-bottom: solid;
-   }
-
+     border-bottom: solid;}
    .topnav.responsive .dropdown .nav-link {float: none;}
    .topnav.responsive {position: relative;}
-   .topnav.responsive .dropdown .dropbtn 
-   {
+   .topnav.responsive .dropdown .dropbtn {
      display: block;
      width: 100%;
-     text-align: left;
-   }
+     text-align: left;}
    .row{
-       flex-direction: column;
-   }
- 
-
-}
- 
-@media screen and (max-width: 360px) {
-       
-  .active{
-      background-color:  #D4CAA3;
-  }
+       flex-direction: column; }
+} 
+@media screen and (max-width: 360px) 
+{ .active{
+      background-color:  #D4CAA3; }
  .topnav a:not(:first-child), .dropdown .dropbtn{
-   display: none;
- }
+   display: none; }
  .topnav a.icon {
    float: right;
-   display: block;
- }
+   display: block;}
 }
-
-@media screen and (max-width: 360px) {
- a {
-     flex: none;
- }
+@media screen and (max-width: 360px) 
+{  a {
+     flex: none; }
  .topnav{
-     width: 80%;
- }
+     width: 80%;}
  .topnav.responsive {
  position: relative;
  width: 100%;
- display: initial;
- }
+ display: initial; }
 .icon{
-    border: solid;
-}
+    border: solid;}
  .topnav.responsive .icon {
      float: right;
      display: block;
     position: absolute;
    top: 0;
-   border-bottom: hidden;
- }
+   border-bottom: hidden;}
  .topnav.responsive a {   
      left: 50%;
      transform: translateX(-50%);
@@ -592,43 +458,29 @@ img{
    float: none;
    display: block;
    text-align: left;
-   border-bottom: solid;
- }
-
+   border-bottom: solid;}
  .topnav.responsive .dropdown .nav-link {float: none;}
  .topnav.responsive {position: relative;}
- .topnav.responsive .dropdown .dropbtn 
- {
+ .topnav.responsive .dropdown .dropbtn {
    display: block;
    width: 100%;
-   text-align: left;
- }
+   text-align: left;}
  .row{
-     flex-direction: column;
- }
-
-
-}
-  
- 
+     flex-direction: column;}
+} 
 /*---------------------------------------------------styling header--------------------------------------------------*/
-.header
-{
+.header{   
     padding: 10px;
     margin: 10px;
     flex: 1 100%;
     border-radius: 10px;
-    height: auto;
-}
+    height: auto;}
 /*--------------------------------------------------------styling main ---------------------------------------------*/
 .main{
     padding: 10px;
     margin: 60px;
     flex: 1 100%;
-    border-radius: 10px;
-    
-}
-
+    border-radius: 10px; }
 /*--------------------------------------------------------styling entertainment page---------------------------------------------*/
 .ent-grid{
 	display: grid;
@@ -639,51 +491,44 @@ img{
 	"movie drama"
 	"music books";
 	grid-gap: 40px;
-	border-radius: 4px;
-}
-
+	border-radius: 4px;}
 .movie{
 	grid-area: movie;
 	background-image: url(https://images.unsplash.com/photo-1542204165-65bf26472b9b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8bW92aWV8ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-    height: 300px;
-   padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
+  height: 300px;
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
-	border-radius: 15px;
-}
+	border-radius: 15px;}
 .drama{
 	grid-area: drama;
 	background-image: url(https://images.unsplash.com/photo-1592222376988-92af20d4d06c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80);
-    height: 300px;
-    opacity: 0.9;
-   padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
+  height: 300px;
+  opacity: 0.9;
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
-	border-radius: 15px;
-}
+	border-radius: 15px;}
 .music{
 	grid-area: music;
 	background-image: url(https://images.unsplash.com/photo-1489641493513-ba4ee84ccea9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80);
-       height: 300px;
-    padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
+  height: 300px;
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
-	border-radius: 15px;
-}
+	border-radius: 15px;}
 .books{
 	grid-area: books;
 	background-image: url(https://images.unsplash.com/photo-1580490266525-859fbf71b4b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
-      height: 300px;
-    padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
+  height: 300px;
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
-	border-radius: 15px;
-}
-
+	border-radius: 15px;}
 .movie span{
 	color: #F5F5F5;
 	font-weight: 700;
@@ -704,46 +549,37 @@ img{
 	font-weight: 700;
 	font-size: 1.5em;
 	height: 100px;}
-
 .movie .text-block {
   background: rgb(0, 0, 0); 
   background: rgba(0, 0, 0, 0.5); 
   color: #f1f1f1; 
   padding: 20px; 
-  text-align: center;
-}
-
+  text-align: center;}
 .drama .text-block {
   background: rgb(0, 0, 0); 
   background: rgba(0, 0, 0, 0.5); 
   color: #f1f1f1; 
   padding: 20px; 
-   text-align: center;
-}
+  text-align: center;}
 .music .text-block {
   background: rgb(0, 0, 0); 
   background: rgba(0, 0, 0, 0.5); 
   color: #f1f1f1; 
   padding: 20px; 
-   text-align: center;
-}
+  text-align: center;}
 .books .text-block {
   background: rgb(0, 0, 0); 
   background: rgba(0, 0, 0, 0.5); 
   color: #f1f1f1; 
   padding: 20px; 
-   text-align: center;
-}
+  text-align: center;}
 a:link, a:visited {
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-}
-
-
+  display: inline-block;}
+/*--------------------------------------------------make entertainment responsive  for different sizes----------------------------------*/
 @media screen and (max-width: 700px)
-{
-	.ent-grid{
+{.ent-grid{
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -752,13 +588,10 @@ a:link, a:visited {
 	"drama drama"
 	"music music"
 	"books books";
-	grid-gap: 10px;
+	grid-gap: 10px;}
 }
-}
-
 @media screen and (max-width: 360px)
-{
-	.ent-grid{
+{.ent-grid{
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -767,28 +600,22 @@ a:link, a:visited {
 	"drama drama"
 	"music music"
 	"books books";
-	grid-gap: 10px;
+	grid-gap: 10px;}
 }
-}
-
-
 /*------------------------------------------------------styling movie page-----------------------------------------------------*/
-
 .movie-grid{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-areas: 
 "fant action horror anime";
 grid-gap: 5px;
-padding-top: 70px;
-}
+padding-top: 70px;}
 .fant{
 grid-area: fant;
 text-align: center;
 padding-right: 4px;
 border-right: 4px solid  #a19a7c;
-height: 100%;
-}
+height: 100%;}
 .fant-title{
 background-image: url(https://images.unsplash.com/photo-1575089776834-8be34696ffb9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
 padding: 50px 0 0 0;
@@ -797,15 +624,13 @@ background-repeat: no-repeat;
 background-size: cover;
 height: 100px;
 margin-bottom: 15px;
-border-radius: 15px;
-}
+border-radius: 15px;}
 .action{
 grid-area: action;
 text-align: center;
 padding-right: 4px;
 border-right: 4px solid  #a19a7c;
-height: 100%;
-}
+height: 100%;}
 .action-title{
 background-image: url(https://images.unsplash.com/photo-1577206604118-4fd3fd9eca74?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8bWlsaXRhcnl8ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
 padding: 50px 0 0 0;
@@ -814,16 +639,13 @@ background-repeat: no-repeat;
 background-size: cover;
 height: 100px;
 margin-bottom: 15px;
-border-radius: 15px;
-}
+border-radius: 15px;}
 .horror{
 grid-area: horror;
 text-align: center;
 padding-right: 4px;
 border-right: 4px solid  #a19a7c;
-height: 100%;
-
-}
+height: 100%;}
 .horror-title{
 background-image: url(https://images.unsplash.com/photo-1601513445498-5dbffc8d5d5a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjR8fGhvcnJvciUyMG1vdmllfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
 padding: 50px 0 0 0;
@@ -832,12 +654,10 @@ background-repeat: no-repeat;
 background-size: cover;
 height: 100px;
 margin-bottom: 15px;
-border-radius: 15px;
-}
+border-radius: 15px;}
 .anime{
 grid-area: anime;
-text-align: center;  
-}
+text-align: center;  }
 .anime-title{
 background-image: url(https://images.unsplash.com/photo-1574771049588-4c641deb76d4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60);
 padding: 50px 0 0 0;
@@ -846,49 +666,36 @@ background-repeat: no-repeat;
 background-size: cover;
 height: 100px;
 margin-bottom: 15px;
-border-radius: 15px;
-}
+border-radius: 15px;}
 .img-responsive {
 display: block;
-width: 300px;
-}
+width: 300px;}
 .movie-row{
 display: flex;
-justify-content: center;
-}
+justify-content: center;}
 .action-row{
 display: flex;
-justify-content: center;
-}
+justify-content: center;}
 .horror-row{
 display: flex;
-justify-content: center;
-}
+justify-content: center;}
 .anime-row{
 display: flex;
-justify-content: center;
-}
-
+justify-content: center;}
+/*-------------------------------------------------------- make drama page responsive for different sizes--------------------------------------*/
 @media screen and (max-width: 1020px)
-{
-	.movie-grid{
+{.movie-grid{
 	display: grid;
 	grid-template-rows: 1fr 1fr ;
 	grid-template-areas: 
 	"fant fant action action"
 	"horror horror anime anime";
-	grid-gap: 10px;
-}
+	grid-gap: 10px;}
 .action {
-	border-right: none;
+	border-right: none;}
 }
-
-}
-
-
 @media screen and (max-width: 600px)
-{
-	.movie-grid{
+{.movie-grid{
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	grid-template-areas: 
@@ -896,22 +703,16 @@ justify-content: center;
 	"action action action action"
 	"horror horror horror horror"
 	"anime anime anime anime";
-  grid-gap: 10px;
-  }
+  grid-gap: 10px;}
   .fant {
-    border-right: none;
-  }
+    border-right: none;}
   .action {
-    border-right: none;
-  }
+    border-right: none;}
   .horror {
-    border-right: none;
+    border-right: none;}
   }
-  }
-
 @media screen and (max-width: 360px)
-{
-	.movie-grid{
+{.movie-grid{
 	display: grid;
 	grid-template-rows: 1fr ;
 	grid-template-areas: 
@@ -919,291 +720,235 @@ justify-content: center;
 	"action action action action"
 	"horror horror horror horror"
 	"anime anime anime anime";
-	grid-gap: 10px;
-}
-
+	grid-gap: 10px;}
 .fant {
-	border-right: none;
-}
+	border-right: none;}
 .action {
-	border-right: none;
-}
+	border-right: none;}
 .horror {
-	border-right: none;
+	border-right: none;}
 }
-}
-
+/*------------------------------------------------styling sub headings in entrtainment pages--------------------------------------------*/
 .img-text {
   bottom: 16px;
   left: 50%;
   width: 192px;
-  font-variant-caps: all-petite-caps;
-}
-
+  font-variant-caps: all-petite-caps;}
 .img-cont {
   position: relative;
   text-align: center;
-  color: white;
-}
-
+  color: white;}
 .fant-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
+    border-radius: 0 0 15px 15px;}
   .action-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
+    border-radius: 0 0 15px 15px;}
   .horror-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
+    border-radius: 0 0 15px 15px;}
   .anime-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
-
-/*------------------------------------------------------styling book page-------------------------------------------*/
+    border-radius: 0 0 15px 15px;}
+/*---------------------------------------------------------------styling book page------------------------------------------------------------*/
 .fanta-title{
 	background-image: url(https://images.unsplash.com/photo-1515356619894-b89131037e3d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FzdGxlc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-   padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
+  padding: 50px 0 0 0;
+  background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
+	border-radius: 15px;}
 .rom-title{
 	background-image: url(https://images.unsplash.com/photo-1557830330-6aca2b7edd70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
-     padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
+	border-radius: 15px;}
 .hor-title{
 	background-image: url(https://images.unsplash.com/photo-1509411273045-2920cee823be?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvcnJvcnxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-     padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
+	border-radius: 15px;}
 .adven-title{
 	background-image: url(https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8YWR2ZW50dXJlfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-     padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
+	border-radius: 15px;}
 .fanta-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
+    border-radius: 0 0 15px 15px;}
   .rom-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
+    border-radius: 0 0 15px 15px;}
   .adven-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
+    border-radius: 0 0 15px 15px;  }
   .hor-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
-
-  /* -------------------------------------------------styling Drama page---------------------------------*/
+    border-radius: 0 0 15px 15px;  }
+  /* --------------------------------------------------------styling Drama page-----------------------------------------------------------*/
   .fantas-title{
 	background-image: url(https://i.pinimg.com/originals/2b/e9/08/2be908eca72c1ea42f68c30feb0fd64f.jpg);
-   padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
+	border-radius: 15px;}
 .roma-title{
 	background-image: url(https://images.unsplash.com/photo-1554866537-e4b72ff79b1c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nzh8fGNoZXJyeSUyMGJsb3Nzb218ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-     padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
+	border-radius: 15px;}
 .horo-title{
 	background-image: url(https://cdn.wallpapersafari.com/19/48/qHTBKA.jpg);
-     padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
+	border-radius: 15px;}
 .ani-title{
 	background-image: url(https://i.pinimg.com/originals/e1/5c/f0/e15cf09f1ac022d8f6f92900ef486966.jpg);
-     padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
+	border-radius: 15px;}
 .fantas-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
+    border-radius: 0 0 15px 15px;}
   .roma-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
+    border-radius: 0 0 15px 15px;}
   .ani-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
+    border-radius: 0 0 15px 15px; }
   .horo-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
-
-  /* ------------------------------------------------ styling music page---------------------------------------------------------*/
-
+    border-radius: 0 0 15px 15px;}
+  /* -------------------------------------------------------- styling music page----------------------------------------------------------------*/
 .eng-title{
 	background-image: url(https://media.istockphoto.com/photos/young-woman-in-eighteenth-century-image-posing-at-vintage-exterior-picture-id600064658?k=6&m=600064658&s=612x612&w=0&h=FJ4cYQM9AnvEusOeKFhPXNZS4zQ5ZcVyBju37zqNmeE=);
-   padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
+	border-radius: 15px;}
 .korean-title{
 	background-image: url(https://i.pinimg.com/564x/ce/a0/27/cea0270b71143e0d337e7a0dddeb2c16.jpg);
-     padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
+	border-radius: 15px;}
 .japanese-title{
 	background-image: url(https://media.gettyimages.com/photos/japanese-women-in-kimono-picture-id109836796?k=6&m=109836796&s=612x612&w=0&h=w2ofz8S3sJFX4_J40tLvpnqbflDb5gi_K-sWr2shT0I=);
-     padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
+	border-radius: 15px;}
 .spanish-title{
 	background-image: url(https://images.unsplash.com/photo-1522796663327-2946cde45d6d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzZ8fGZsYW1lbmNvfGVufDB8MHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-     padding: 50px 0 0 0;
-	 background-position: center;
-    background-repeat: no-repeat;
+  padding: 50px 0 0 0;
+	background-position: center;
+  background-repeat: no-repeat;
 	background-size: cover;
 	height: 100px;
 	margin-bottom: 15px;
-	border-radius: 15px;
-}
-
+	border-radius: 15px;}
 .img-responsive {
   display: block;
-  width: 300px;
-
-}
-
+  width: 300px;}
 .eng-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
+    border-radius: 0 0 15px 15px;}
   .korean-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
+    border-radius: 0 0 15px 15px;}
   .japanese-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
+    border-radius: 0 0 15px 15px;}
   .spanish-title .text-block2{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     height: 50px;
-    border-radius: 0 0 15px 15px;
-  }
-
+    border-radius: 0 0 15px 15px;}
+  /*-------------------------------------------------------------styling music buttons--------------------------------------------------------*/
  .btn {
   position: absolute;
   top: 50%;
@@ -1217,16 +962,10 @@ justify-content: center;
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  text-align: center;
-}
-
-
+  text-align: center;}
 .btn:hover {
-  background-color: #a19a7c;
-}
-
+  background-color: #a19a7c;}
 /*---------------------------------------------------------styling Contact page --------------------------------------------------------------*/
-
 .contact-grid{
 	display: grid;
 	padding: 40px;
@@ -1237,48 +976,35 @@ justify-content: center;
 	"contact-img contact-desc"
 	"contact-img social-media";
 	grid-gap: 10px;
-     justify-items:center;
-     padding-top: 70px;
-}
-
+  justify-items:center;
+  padding-top: 70px;}
 .contact-desc{
 	grid-area: contact-desc;
-    background-color: rgba(121, 90, 90, 0.842);
-    height: 100%;
+  background-color: rgba(121, 90, 90, 0.904);
+  height: 100%;
 	padding: 50px 0 0 0;
-   text-align: center;
-
-}
-
+  text-align: center;}
 .social-media{
 	grid-area: social-media;
-    background-color: rgba(255, 255, 255, 0.637);
-    height: 100px;
+  background-color: rgba(255, 255, 255, 0.849);
+  height: 100px;
 	text-align: center;
-	width: max-content;
-
-}
-
+	width: max-content;}
 .cont-head{
 	grid-area: cont-head;
-    background-image: url(https://images.unsplash.com/photo-1522263576558-75fad02133b7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njh8fGRhcmslMjBncmVlbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
-    height: 680px;
+  background-image: url(https://images.unsplash.com/photo-1522263576558-75fad02133b7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njh8fGRhcmslMjBncmVlbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  height: 680px;
 	padding: 50px 0 0 0;
 	width: 85%;
-	text-align: center;
-
-}
+	text-align: center;}
 .contact-img {
 	grid-area: contact-img;
-	background-color: rgba(226, 211, 183, 0.801);
+	background-color: rgba(226, 211, 183, 0.863);
 	height:max-content;
 	width: max-content;
 	padding: 50px 0 0 0;
-	text-align: center;
-
-}
-
-/*Social media buttons*/
+	text-align: center;}
+/*----------------------------------------------------------------Social media buttons----------------------------------------------------------*/
 .fa {
   padding: 30px;
   font-size: 30px;
@@ -1286,41 +1012,27 @@ justify-content: center;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  border-radius: 50%;
-}
-
+  border-radius: 50%;}
 .fa:hover {
-    opacity: 0.7;
-}
-
+    opacity: 0.7;}
 .fa-twitter {
   background:  #D4CAA3;
-  color:  #79735c;
-}
-
+  color:  #79735c;}
 .fa-google {
   background:  #D4CAA3;
-  color:  #79735c;
-}
-
+  color:  #79735c;}
 .fa-youtube {
   background:  #D4CAA3;
-  color:  #79735c;
-}
-
+  color:  #79735c;}
 .fa-instagram {
   background: #D4CAA3;
-  color:  #79735c;
-}
-
+  color:  #79735c;}
 .fa-pinterest {
   background:  #D4CAA3;
-  color:  #79735c;
-}
-
+  color:  #79735c;}
+/*--------------------------------make contact page responsive for different sizes----------------------------------*/
 @media screen and (max-width: 1024px)
-{
-	.contact-grid{
+{.contact-grid{
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-areas: 
@@ -1329,16 +1041,12 @@ justify-content: center;
 	"contact-desc contact-desc"
 	"social-media social-media";
    justify-items:center;
-	grid-gap: 10px;
-
-	}
+	grid-gap: 10px;}
 	.cont-head{
-		height: 180px;
-	}
+		height: 180px;}
 }
 @media screen and (max-width: 600px)
-{
-	.contact-grid{
+{.contact-grid{
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-areas: 
@@ -1347,16 +1055,12 @@ justify-content: center;
 	"contact-desc contact-desc"
 	"social-media social-media";
    justify-items:center;
-	grid-gap: 10px;
-
-	}
+	grid-gap: 10px;}
 	.cont-head{
-		height: 180px;
-	}
+		height: 180px;}
 }
 @media screen and (max-width: 360px)
-{
-	.contact-grid{
+{.contact-grid{
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-areas: 
@@ -1365,11 +1069,8 @@ justify-content: center;
 	"contact-desc contact-desc"
 	"social-media social-media";
    justify-items:center;
-	grid-gap: 10px;
-
-	}
+	grid-gap: 10px;}
 	.cont-head{
-		height: 180px;
-	}
+		height: 180px;}
 }
 
